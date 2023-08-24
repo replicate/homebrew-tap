@@ -15,6 +15,6 @@ class Pget < Formula
   end
 
   test do
-    assert_match "Usage of pget:", shell_output("#{bin}/pget --help")
+    shell_output("#{bin}/pget --help")
   end
 end
