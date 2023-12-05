@@ -1,8 +1,8 @@
 class Replicate < Formula
   desc "Run machine learning models in the cloud"
   homepage "https://github.com/replicate/cli"
-  url "https://github.com/replicate/cli/archive/refs/tags/v0.5.0.tar.gz"
-  sha256 "12dd905be91d95eea4f4b46ead26aa57121db84c2e9ec0cda192ec9301c6648b"
+  url "https://github.com/replicate/cli/archive/refs/tags/v0.5.1.tar.gz"
+  sha256 "f1c9da4f6944f8b106b06aa466a9dfbc1ab3cfbca4089619d643cc8afa5bcbf7"
   license "Apache-2.0"
   head "https://github.com/replicate/cli.git", branch: "main"
 
