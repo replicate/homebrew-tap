@@ -1,8 +1,8 @@
 class Pget < Formula
   desc "Parallel file downloader & extractor"
   homepage "https://github.com/replicate/pget"
-  url "https://github.com/replicate/pget/archive/refs/tags/v0.6.2.tar.gz"
-  sha256 "d0dc4f522e0530d5b25f02ed71b7f76367f175a493e43bf1df2ae95467ef02c8"
+  url "https://github.com/replicate/pget/archive/refs/tags/v0.9.0.tar.gz"
+  sha256 "f1cf1e7ac30beb2251ccfb4570dd172ab4adb4229242fd9de51743b32e1e0364"
 
   license "Apache-2.0"
   head "https://github.com/replicate/pget.git", branch: "main"
