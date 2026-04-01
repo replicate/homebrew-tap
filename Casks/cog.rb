@@ -26,7 +26,8 @@ cask "cog" do
                        end}", target: "cog"
 
   postflight do
+    binary_name = "cog_Darwin_#{Hardware::CPU.arm? ? "arm64" : "x86_64"}"
     system_command "/usr/bin/xattr",
-                   args: ["-dr", "com.apple.quarantine", "#{staged_path}/cog"]
+                   args: ["-dr", "com.apple.quarantine", "#{staged_path}/#{binary_name}"]
   end
 end
