@@ -1,14 +1,14 @@
 cask "cog" do
-  version "0.17.2"
+  version "0.18.0"
 
   on_arm do
-    sha256 "1b1e4c6478cfd143286a58dcba69ed7383057ac350d04eca11795588b8fca49e"
+    sha256 "cc7cc355952a29fd1950d46dfa1e61259db24db762be454da269de593271b7ae"
 
     url "https://github.com/replicate/cog/releases/download/v#{version}/cog_Darwin_arm64",
         verified: "github.com/replicate/cog/"
   end
   on_intel do
-    sha256 "4c4be6748d7c0aa708858c86ab5f2156e7ed3b7e833f548868f6b6c870f5ae34"
+    sha256 "87715e594a23895601406c40ceb0465fdff2025dd44cf4419d067dccffcd1da2"
 
     url "https://github.com/replicate/cog/releases/download/v#{version}/cog_Darwin_x86_64",
         verified: "github.com/replicate/cog/"
